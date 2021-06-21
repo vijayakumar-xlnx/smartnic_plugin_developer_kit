@@ -1,0 +1,25 @@
+{
+  "minor_ver": 0,
+  "patch_ver": 0,
+  "reg_win_size": 8388608,
+  "cams": [
+    {
+      "ident": "tx_sadb",
+      "type": "exact",
+      "key_size": 288,
+      "response_size": 640,
+      "base_addr": 7340032,
+      "num_entries": 8912,
+      "key_fmt": "32b:128b:128b"
+    },
+    {
+      "ident": "rx_sadb",
+      "type": "exact",
+      "key_size": 288,
+      "response_size": 640,
+      "base_addr": 5251072,
+      "num_entries": 8912,
+      "key_fmt": "32b:128b:128b"
+    }
+  ]
+}
